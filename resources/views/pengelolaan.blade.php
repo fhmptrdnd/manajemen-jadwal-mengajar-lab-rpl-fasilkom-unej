@@ -48,7 +48,7 @@
                 </button>
                 @endif
             </div>
-            <div class="card-body p-0"> <!-- Hapus padding di card body -->
+            <div class="card-body p-0">
                 <div class="table-scroll-container">
                     <table class="table table-hover table-striped table-bordered mb-0" style="min-width: 1000px;">
                         <thead class="table-light">

@@ -185,7 +185,6 @@
                     </div>
                 </div>
 
-                <!-- Main content -->
                 <div class="col-md-10 ms-sm-auto px-4 py-4 main-content" id="mainContent">
                     @yield('content')
                 </div>
@@ -199,7 +198,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        // Mobile sidebar toggle
         function toggleSidebar() {
             const sidebar = document.getElementById('sidebar');
             const overlay = document.getElementById('sidebarOverlay');
@@ -209,10 +207,8 @@
             overlay.classList.toggle('show');
         }
 
-        // Close sidebar when clicking on overlay
         document.getElementById('sidebarOverlay')?.addEventListener('click', toggleSidebar);
 
-        // Close sidebar when clicking on nav links (mobile)
         document.querySelectorAll('.sidebar .nav-link').forEach(link => {
             link.addEventListener('click', () => {
                 if (window.innerWidth < 768) {
